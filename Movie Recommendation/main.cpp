@@ -14,7 +14,7 @@ int main(int argc,char *argv[]) {
     struct tm* p;;
     time(&nowtime);
     p = localtime(&nowtime);
-    string outtext="./result/movie_result_"+to_string((int)ave_num)+"_"+to_string(p->tm_mon+1)+"."+to_string(p->tm_mday)+"_"+to_string(p->tm_hour)+"_"+to_string(p->tm_min)+"_"+to_string(p->tm_sec)+".txt";
+    string outtext="../result/movie_result_"+to_string((int)ave_num)+"_"+to_string(p->tm_mon+1)+"."+to_string(p->tm_mday)+"_"+to_string(p->tm_hour)+"_"+to_string(p->tm_min)+"_"+to_string(p->tm_sec)+".txt";
 
     lambda_f=1.0;
 
