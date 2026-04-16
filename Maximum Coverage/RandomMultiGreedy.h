@@ -2,7 +2,6 @@
 #define COVERAGE_RANDOMMULTIGREEDY_H
 
 #include "ParallelDistortedFilter.h"
-#include "Boost_plus.h"
 class Ai_node
 {
 public:
