@@ -1,6 +1,6 @@
 #ifndef COVERAGE_RANDOMMULTIGREEDY_H
 #define COVERAGE_RANDOMMULTIGREEDY_H
-
+#include "map"
 #include "ParallelDistortedFilter.h"
 class Ai_node
 {
