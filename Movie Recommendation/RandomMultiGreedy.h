@@ -1,4 +1,5 @@
 #include "ParallelDistortedFilter.h"
+#include "map"
 class Ai_node
 {
 public:
