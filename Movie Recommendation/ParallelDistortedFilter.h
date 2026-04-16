@@ -1,6 +1,5 @@
 #ifndef MOV_PARALLELDISTORTEDFILTER_H
 #define MOV_PARALLELDISTORTEDFILTER_H
-#include "Boost_plus.h"
 #include "utility_functions.h"
 class ALG_known
 {
