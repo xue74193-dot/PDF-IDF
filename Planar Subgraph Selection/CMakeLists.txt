@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.17)
+project(PlanarGraph)
+
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3")
+
+set(BOOST_ROOT D:/software/JetBrains/boost/boost_1_79_0)
+find_package(BOOST 1.79.0 COMPONENTS thread)
+if(Boost_FOUND)
+    message(Boost_INCLUDE_DIRS " ${Boost_INCLUDE_DIRS}")
+    message(Boost_LIBRARY_DIRS " ${Boost_LIBRARY_DIRS}")
+    include_directories(${Boost_INCLUDE_DIRS})
+    link_directories(${Boost_LIBRARY_DIRS})
+    add_executable(PlanarGraph main.cpp utilityfunction.h  PlanarTest.h ParallelDistortedFilter.h RandomSelection.h RandomMultiGreedy.h haba_non.h IterativeDistortedFilter.h PlanarGraph.h)
+endif()
